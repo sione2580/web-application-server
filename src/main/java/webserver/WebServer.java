@@ -20,7 +20,7 @@ public class WebServer {
 
         // 서버소켓을 생성한다. 웹서버는 기본적으로 8080번 포트를 사용한다.
         System.out.println("GIT BRANCH");
-        
+        System.out.println("이걸로 첫번째 테스트를 하게서");
         try (ServerSocket listenSocket = new ServerSocket(port)) {
             log.info("Web Application Server started {} port.", port);
 
